@@ -20,8 +20,7 @@ def binary_search(values, target):
 
 if __name__ == "__main__":
     print(sorted_values)
-    result = binary_search(sorted_values, target_value)
-    if result is False:
-        print("Target value not found.")
+    if binary_search(sorted_values, target_value):
+        print("Target value found at index:", binary_search(sorted_values, target_value))
     else:
-        print("Target value found at index:", result)
+        print("Target value not found.")
