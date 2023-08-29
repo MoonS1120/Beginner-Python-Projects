@@ -1,8 +1,6 @@
 from random import randint
 
-values = []
-for i in range(10):
-    values.append(randint(1, 10))
+values = [randint(1,10) for _ in range(10)]
 target_value = int(input("Target value: "))
 sorted_values = sorted(list(set(values)))
 
