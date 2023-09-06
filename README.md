@@ -21,4 +21,3 @@ Archive of beginner-level python programs
   ```python
    api = 'API-key'
   ```
---- 
