@@ -8,7 +8,8 @@ def convert(from_currency, to_currency, amount, url):
     return initial_amount, amount
 
 def main():
-    url = 'http://data.fixer.io/api/latest?access_key=' + 'api-key'
+    api = 'API-key'
+    url = 'http://data.fixer.io/api/latest?access_key=' + api
     from_c = input("From: ")
     to_c = input("To: ")
     amount = int(input("Amount: "))
