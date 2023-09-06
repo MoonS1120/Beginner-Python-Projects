@@ -14,9 +14,9 @@ Archive of beginner-level python programs
 
 ## Python module
 #### Simple plagiarism checker
-- uses class **SequenceMatcher** from library **difflib**
+- uses class **SequenceMatcher** from module **difflib**
 #### Currency converter
-- uses library **requests** to import currency rate from **fixer.io**
+- uses module **requests** to import currency rate from **fixer.io**
 - enter API
   ```python
    api = 'API-key'
