@@ -21,6 +21,12 @@ def multiplication(A, B):
                 results[r][c] += A[r][k]*B[k][c]
     return results
 
+def determinant():
+    ...
+
+def rotation():
+    ...
+
 for row in addition(A, B):
     print(row)
 print()
