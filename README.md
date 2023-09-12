@@ -10,7 +10,7 @@ Archive of beginner-level python programs
 
 :heavy_check_mark: **Currency converter**
 
-. . .  **Simple-matrices-calculator** - in progress
+:radio_button: **Simple-matrices-calculator** - in progress
 
 <br/>
 
