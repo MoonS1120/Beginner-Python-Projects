@@ -10,6 +10,8 @@ Archive of beginner-level python programs
 
 :heavy_check_mark: **Currency converter**
 
+. . .  **Simple-matrices-calculator** - in progress
+
 <br/>
 
 ## Python module
@@ -17,8 +19,4 @@ Archive of beginner-level python programs
 - uses class **SequenceMatcher** from module **difflib**
 #### Currency converter
 - uses module **requests** to import currency rate from **fixer.io**
-- enter API at
-
-  ```python
-   api = 'API-key'
-  ```
+- enter API `api = 'API-key'`
