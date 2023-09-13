@@ -10,8 +10,12 @@ C = [[-2, 1],
      [4, 3],
      [-1, 5]]
 
+D = [[2, 4],
+     [-3, 1]]
+
+
 def addition(A, B):
-    return [[A[r][c] + B[r][c] for c in range(len(A[r]))] for r in range(len(A))]
+    return [[A[r][c] + B[r][c] for c in range(len(A[0]))] for r in range(len(A))]
 
 def multiplication(A, B):
     results = [[0 for _ in range(len(B[0]))] for _ in range(len(A))]
@@ -21,8 +25,8 @@ def multiplication(A, B):
                 results[r][c] += A[r][k]*B[k][c]
     return results
 
-def determinant():
-    ...
+def determinant(A):
+    return A[0][0]*A[1][1] - A[0][1]*A[1][0]
 
 def rotation():
     ...
@@ -34,3 +38,5 @@ print()
 for row in multiplication(A, C):
     print(row)
 print()
+
+print(determinant(D))
