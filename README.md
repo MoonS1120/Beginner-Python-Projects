@@ -19,4 +19,4 @@ Archive of beginner-level python programs
 - uses class **SequenceMatcher** from module **difflib**
 #### Currency converter
 - uses module **requests** to import currency rate from **fixer.io**
-- enter API `api = 'API-key'`
+- enter **fixer.io** API `api = 'API-key'`
