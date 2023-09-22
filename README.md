@@ -10,7 +10,9 @@ Archive of beginner-level python programs
 
 :heavy_check_mark: **Currency converter**
 
-:radio_button: **Simple-matrices-calculator** - in progress
+:heavy_check_mark: **Simple-matrices-calculator**
+
+:heavy_check_mark: **Hilbert-curve**
 
 <br/>
 
@@ -20,3 +22,5 @@ Archive of beginner-level python programs
 #### Currency converter
 - uses module **requests** to import currency rate from **fixer.io**
 - enter **fixer.io** API `api = 'API-key'`
+#### Hilbert-curve
+- uses module **turtle** (n ← level)
